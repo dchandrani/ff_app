@@ -41,7 +41,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primary,
           automaticallyImplyLeading: false,
           title: Text(
-            'Page Title',
+            'FF App',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter Tight',
                   color: Colors.white,
@@ -60,9 +60,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             children: [
               FFButtonWidget(
                 onPressed: () {
-                  print('Button pressed ...');
+                  print('Login Button pressed ...');
                 },
-                text: 'Button',
+                text: 'Login',
                 options: FFButtonOptions(
                   height: 40.0,
                   padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
